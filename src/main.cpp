@@ -29,12 +29,11 @@ void setup(){
 void loop(){
 
   digitalWrite(IN1, HIGH);
-    digitalWrite(IN2, LOW);
-    digitalWrite(IN3, HIGH);
-    digitalWrite(IN4, LOW);
-    analogWrite(ENA, 200); // 0-255 ปรับความเร็วได้
-    analogWrite(ENB, 200); // 0-255 ปรับความเร็ว
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
+  analogWrite(ENA, 200); // 0-255 ปรับความเร็วได้
+  analogWrite(ENB, 200); // 0-255 ปรับความเร็ว
 
-  //MPU6050 update and print data
  
 }
