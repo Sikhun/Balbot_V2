@@ -22,7 +22,6 @@ void setup(){
   pinMode(ENA, OUTPUT);
   pinMode(ENB, OUTPUT);
 
-    // หมุนไปข้างหน้า
     
 }
 
